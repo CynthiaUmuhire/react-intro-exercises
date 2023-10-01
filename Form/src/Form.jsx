@@ -24,7 +24,7 @@ const Form = () => {
     }
     const handleSubmit = (e) => {
         e.preventDefault();
-        alert(names.fName +" "+names.lName)
+        alert("Hello "+ names.fName +" "+names.lName)
     }
   return (
     <form className=" flex flex-col gap-3 items-center justify-center ">
