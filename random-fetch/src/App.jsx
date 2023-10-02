@@ -20,7 +20,7 @@ export default function App() {
 
   return (
     <div className="flex flex-col gap-4 items-center justify-center">
-      <button className="bg-pink-950 p-2 text-center " onClick={fetchImage}>
+      <button className="bg-pink-950 p-3 text-center " onClick={fetchImage}>
         Random Fetch
       </button>
       <div className=" grid grid-cols-2 grid-rows-2  bg-blue-300 gap-3 w-1/2 p-3">
