@@ -11,7 +11,8 @@ export default function App() {
         console.log(data[0].avatar);
         console.log(data[0].first_name);
 
-        return setImages(data)})
+        return setImages(data)
+      })
   };
   useEffect(() => {
     fetchImage;
@@ -24,10 +25,10 @@ export default function App() {
         Random Fetch
       </button>
       <div className=" grid grid-cols-2 grid-rows-2  bg-blue-300 gap-3 w-1/2 p-3">
-      {images.map((image)=> {
-        return (<Card key={image.id} avatar={image.avatar} first_name={image.first_name} last_name={image.last_name} title={image.employment.title}/>)
-      } )}
-     </div>
+        {images.map((image) => {
+          return (<Card key={image.id} avatar={image.avatar} first_name={image.first_name} last_name={image.last_name} title={image.employment.title} date_of_birth={image.date_of_birth} email={image.email} />)
+        })}
+      </div>
     </div>
   )
 }
