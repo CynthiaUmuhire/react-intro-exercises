@@ -1,8 +1,8 @@
 
-const List = ({name}) => {
+const List = ({ name }) => {
 
     return (
-        <li className="p-2 ">  {name}</li>
+        <li className="border p-2 ">  {name}</li>
     )
 }
 
