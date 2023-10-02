@@ -2,7 +2,7 @@
 const List = ({ name }) => {
 
     return (
-        <li className="border p-2 ">  {name}</li>
+        <li className="">  {name}</li>
     )
 }
 

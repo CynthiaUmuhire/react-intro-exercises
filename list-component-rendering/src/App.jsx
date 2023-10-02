@@ -5,7 +5,7 @@ export default function App() {
 
 
   return (
-    <ul className="list-disc list-inside">
+    <ul className="list-disc list-inside p-2">
       {animals.map((animal, index) => {
         return <List key={index} name={animal} />
       })}
